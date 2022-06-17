@@ -1,0 +1,1 @@
+// component that signs into firebase using GoogleAuth

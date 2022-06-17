@@ -1,5 +1,5 @@
 import NavBar from '../components/NavBar'
-import SignUpForm from '../components/SignUpForm'
+import SignUpForm from '../components/forms/SignUpForm'
 
 const Signup = (props) => {
   return (

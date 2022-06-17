@@ -14,16 +14,15 @@ const MyTextInput = ({ label, ...props }) => {
     )
 }
 
-const SignupForm = () => {
+const LoginFormik = () => {
     return (
         <>
-            <h1>Sign Up</h1>
+            <h1>Login</h1>
             <h4>Please enter your details below</h4>
             <Formik
                 initialValues={{
                     email: '',
                     password: '',
-                    passwordValidation: ''
                 }}
                 validationSchema={Yup.object({
                     email: Yup.string()
@@ -32,8 +31,6 @@ const SignupForm = () => {
                     password: Yup.string()
                         .required('No Password Provided')
                         .min(8, 'Password must be at least 8 characters long'),
-                    passwordValidation: Yup.string()
-                        .oneOf([Yup.ref('password'), null], 'Passwords must match')
                 })}
                 onSubmit={(values, { setSubmitting }) => {
                     setTimeout(() => {
@@ -56,21 +53,15 @@ const SignupForm = () => {
                     type='password'
                     placeholder='Enter your password'
                 />
-                <MyTextInput
-                    label="Password Validation"
-                    name='passwordValidation'
-                    type='password'
-                    placeholder='Confirm password'
-                />
-                <button type='submit'>Sign Up</button> {/* onClick(firebaseSignUp)*/}    
+                <button type='submit'>Login</button> {/* onClick(firebaseSignUp)*/}    
             </Form>    
         </Formik>
         </>
     )
 }
 
-const SignUpForm = () => {
-    return (<SignupForm />)
+const LoginForm = () => {
+    return (<LoginFormik />)
 }
 
-export default SignUpForm
+export default LoginForm
