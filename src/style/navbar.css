@@ -1,0 +1,17 @@
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    height: 3em;
+    padding: 1em;
+    align-items:center;
+    background-color: #EBEBEB;
+}
+.home{
+    margin-left:4em;
+}
+.login-signup{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 4em;
+    gap: 1em;
+}
