@@ -1,3 +1,4 @@
+import CategoryBtn from './CategoryBtn'
 import { Link } from 'react-router-dom'
 
 const Sidebar = (props) => {
