@@ -17,6 +17,7 @@ h4{
     flex-direction: column;
 }
 .signup-form input{
+    background-color: #EBEBEB;
     height: 25px;
     width: 400px;
     padding: .5em;

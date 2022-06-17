@@ -1,5 +1,6 @@
 import { Formik, useField, Form } from 'formik';
 import * as Yup from 'yup'
+import { Link } from 'react-router-dom'
 
 const MyTextInput = ({ label, ...props }) => { 
     const [field, meta] = useField(props);
@@ -16,8 +17,8 @@ const MyTextInput = ({ label, ...props }) => {
 
 const LoginFormik = () => {
     return (
-        <>
-            <h1>Login</h1>
+        <div className='form-container'>
+            <h1 className='login-h1'>Welcome Back</h1>
             <h4>Please enter your details below</h4>
             <Formik
                 initialValues={{
@@ -40,7 +41,7 @@ const LoginFormik = () => {
                 }}
             >
             
-            <Form>
+            <Form className='login-form'>
                 <MyTextInput
                     label='Email'
                     name='email'
@@ -52,11 +53,16 @@ const LoginFormik = () => {
                     name='password'
                     type='password'
                     placeholder='Enter your password'
-                />
+                    />
+                    <div className='forgot-password'>
+                        <Link to='/forgot'>
+                            Forgot Password
+                        </Link>
+                    </div>
                 <button type='submit'>Login</button> {/* onClick(firebaseSignUp)*/}    
             </Form>    
         </Formik>
-        </>
+        </div>
     )
 }
 
