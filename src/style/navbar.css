@@ -9,9 +9,34 @@
 .home{
     margin-left:4em;
 }
+.home a{
+    text-decoration: none;
+    color: darkorchid;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+.home a:hover{
+    color: black;
+}
 .login-signup{
     display:flex;
     justify-content: space-between;
     margin-right: 4em;
     gap: 1em;
+}
+.login-signup a{
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #969696;
+    padding: .3em 1em;
+    border-radius: 6px;
+    transition: color .2 background-color .2 ease-in-out;
+}
+.login-signup a:hover{
+    color:darkorchid;
+    background-color: white;
 }
