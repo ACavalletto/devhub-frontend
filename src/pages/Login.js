@@ -1,5 +1,5 @@
 import NavBar from '../components/NavBar'
-import LoginForm from '../components/forms/LoginForm'
+import LoginForm from '../components/Forms/LoginForm'
 const Login = (props) => {
   return (
     <div><LoginForm/>
