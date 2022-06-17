@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    text-align:center;
+    letter-spacing: -.7px;
+}
+p{
+
+    font-weight:400;
+    font-size:20px;
+    line-height:30px;
+    text-align:center;
+    letter-spacing: .3px;
+    margin-bottom: 4em;
+}
+.big-image-container{
+    text-align:center;
+}
+.big-image{
+    width: 800px;
+    margin: 0 auto;
+    height: 435px;
+    border-radius: 4.5px;
+}
+.small-image-container{
+    margin: 4em auto;
+    display:flex;
+    justify-content: space-evenly;  
+    width: 100vw;
+}
+.small-images{
+    width: 180px;
+    height: auto;
+    border-radius: 4.5px;
+}
