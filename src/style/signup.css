@@ -2,7 +2,6 @@
     display:flex;
     flex-direction: column;
     margin: 5em 25% 0 25%;
-    padding-left: 3em;
 }
 .signup-h1{
     text-align:left;
@@ -47,7 +46,7 @@ h4{
     justify-content: center;
     gap: 1em;
     align-items:center;
-    margin: 0 29%;
+    margin: 0 25%;
     width: 418px;
     height:40px;
     margin-top: 2em;
