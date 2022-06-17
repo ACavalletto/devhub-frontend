@@ -1,0 +1,60 @@
+.form-container{
+    display:flex;
+    flex-direction: column;
+    margin: 5em 25% 0 25%;
+    padding-left: 3em;
+}
+.signup-h1{
+    text-align:left;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+h4{
+    margin-top: 0;
+}
+.signup-form{
+    display:flex;
+    flex-direction: column;
+}
+.signup-form input{
+    height: 25px;
+    width: 400px;
+    padding: .5em;
+}
+.signup-form label{
+    margin-top: 2em;
+}
+.error{
+    color: red;
+    margin-top: .25em;
+    margin-left: .5em;
+}
+.signup-form [type='submit']{
+    margin-top: 2.5em;
+    height: 40px;
+    width: 418px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor:pointer;
+}
+.signup-form [type='submit']:hover{
+    background: darkorchid;
+}
+.google-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items:center;
+    margin: 0 29%;
+    width: 418px;
+    height:40px;
+    margin-top: 2em;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.google-btn img{
+    height: 26px;
+}

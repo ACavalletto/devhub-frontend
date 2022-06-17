@@ -1,5 +1,6 @@
 import { Formik, useField, Form } from 'formik';
 import * as Yup from 'yup'
+import '../../style/signup.css'
 
 const MyTextInput = ({ label, ...props }) => { 
     const [field, meta] = useField(props);
@@ -16,8 +17,8 @@ const MyTextInput = ({ label, ...props }) => {
 
 const SignupForm = () => {
     return (
-        <>
-            <h1>Sign Up</h1>
+        <div className='form-container'>
+            <h1 className='signup-h1'>Sign Up</h1>
             <h4>Please enter your details below</h4>
             <Formik
                 initialValues={{
@@ -43,7 +44,7 @@ const SignupForm = () => {
                 }}
             >
             
-            <Form>
+            <Form className="signup-form">
                 <MyTextInput
                     label='Email'
                     name='email'
@@ -65,7 +66,7 @@ const SignupForm = () => {
                 <button type='submit'>Sign Up</button> {/* onClick(firebaseSignUp)*/}    
             </Form>    
         </Formik>
-        </>
+        </div>
     )
 }
 
