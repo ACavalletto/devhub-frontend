@@ -1,7 +1,9 @@
 import NavBar from '../components/NavBar'
 import '../style/landing.css'
 
+
 const Landing = (props) => {
+  
   return (
     <div className='landing'>
       <NavBar />
