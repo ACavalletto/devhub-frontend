@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Snippets from './pages/Snippets'
 import Todo from './pages/Todo'
+import ForgotPW from './pages/ForgotPW'
 function App() {
   return (
     <>
@@ -38,6 +39,10 @@ function App() {
         <Route
         path='/todo'>
           <Todo/>
+        </Route>
+        <Route
+        path='/forgot'>
+          <ForgotPW />
         </Route>
         
     </>

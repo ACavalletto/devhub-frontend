@@ -1,0 +1,79 @@
+.form-container{
+    display:flex;
+    flex-direction: column;
+    margin: 5em 25% 0 25%;
+}
+.login-h1{
+    text-align:left;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+h4{
+    margin-top: 0;
+}
+.login-form{
+    display:flex;
+    flex-direction: column;
+}
+.login-form input{
+    background-color: #EBEBEB;
+    height: 25px;
+    width: 400px;
+    padding: .5em;
+}
+.login-form label{
+    margin-top: 2em;
+}
+.error{
+    color: red;
+    margin-top: .25em;
+    margin-left: .5em;
+}
+.forgot-password{
+    text-align:right;
+    width: 415px;
+    margin-top: 1em;
+}
+.login-form [type='submit']{
+    margin-top: 2.5em;
+    height: 40px;
+    width: 418px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor:pointer;
+}
+.login-form [type='submit']:hover{
+    background: darkorchid;
+}
+.google-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items:center;
+    margin: 0 25%;
+    width: 418px;
+    height:40px;
+    margin-top: 2em;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.google-btn img{
+    height: 26px;
+}
+.signup-link{
+    width: 418px;
+    margin: 0 25%;
+    text-align:center;
+}
+.signup-link p{
+    font-size: 20px;
+}
+.signup-link a{
+    font-size: 20px;
+    margin-left: .5em;
+    color: blue;
+    
+}
