@@ -69,7 +69,7 @@ const SignupForm = () => {
     )
 }
 
-const SignUpForm = (props) => {
+const SignUpForm = () => {
     return (<SignupForm />)
 }
 
