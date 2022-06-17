@@ -1,7 +1,6 @@
-import './style/App.css';
+import './App.css';
 import Landing from './pages/Landing'
 import Dashboard from './pages/Dashboard'
-import Category from './pages/Category'
 import {Route} from 'react-router'
 
 function App() {
