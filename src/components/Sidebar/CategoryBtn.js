@@ -6,7 +6,6 @@ const collapsible = (e) => {
   let links = target.nextSibling;
   console.log(links)
   links.style.display === 'block' ? links.style.display = 'none': links.style.display='block'
-
 }
 
 const CategoryBtn = (props) => {
@@ -15,15 +14,18 @@ const CategoryBtn = (props) => {
     <div className='categories'>
       <button className='category-btn' onClick={collapsible}><img src={category}/></button>
       {/* the URI's are placeholders for now */}
-      <div className="category-links" style={{ display: 'none'}}>
+      <div className="category-links" style={{ display: 'none' }}>
+        <br />
       <Link to='/categorya'>
-        <div>Category A</div>
-      </Link>
+        <div>A</div>
+        </Link>
+        <br />
       <Link to='/categoryb'>
-        <div>Category B</div>
-      </Link>
+        <div>B</div>
+        </Link>
+        <br />
       <Link to='/categoryc'>
-        <div>Category C</div>
+        <div>C</div>
         </Link>
       </div>
     </div>

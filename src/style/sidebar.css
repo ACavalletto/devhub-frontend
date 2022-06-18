@@ -1,18 +1,64 @@
 .sidebar{
-    width: 100px;
-    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+    height: 95vh;
+    background-color: #001e45;
+    overflow-wrap: break-word;
+}
+.user-sidebar{
+    padding-top: 2em;
+    text-align: center;
+    color: white;
+}
+.avatar-img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px outset cyan;
+    border-radius: 50%;
 }
 nav{
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 2em;
-    padding-top: 5em;
-    gap: 2em;
-    height: 80vh;
+    margin:0 25%;
+    gap: 3em;
 }
 button{
     background-color:transparent;
     border-color: transparent;
     cursor:pointer;
+}
+button:hover{
+    background: #002d67;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.settings{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    margin-top: 8em;
+}
+.category-links{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.category-links a div{
+    padding-top: 5px;
+}
+.category-links a div:hover{
+    background: #002d67;
+    border-radius: 50%;
+    height: 25px;
+    width: 30px;
+    color: white;
+}
+.category-links a{
+    text-decoration: none;
+    color:cyan;
 }

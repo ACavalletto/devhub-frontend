@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Header = (props) => {
   return (
-    <div>Header</div>
+    <div style={{height: '5vh', background: '#00193b'}}>Header</div>
   )
 }
 

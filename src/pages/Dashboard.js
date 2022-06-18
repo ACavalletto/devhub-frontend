@@ -1,7 +1,8 @@
 import Sidebar from '../components/Sidebar/Sidebar'
 import Header from '../components/HeaderBar/Header'
 import Category from './Category'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import '../style/dash.css'
 
 const Dashboard = (props) => {
   return (
@@ -9,7 +10,7 @@ const Dashboard = (props) => {
       <Header />
       <Sidebar />
       {/* URI's are placeholders for now */}
-      <Link to='/a'>
+      {/* <Link to='/a'>
         <Category />
       </Link>
       <Link to='/b'>
@@ -17,7 +18,7 @@ const Dashboard = (props) => {
       </Link>
       <Link to='/c'>
         <Category />
-      </Link>
+      </Link> */}
       
     </div>
   )
