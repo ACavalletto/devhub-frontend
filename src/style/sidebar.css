@@ -1,0 +1,14 @@
+nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2em;
+    padding-top: 5em;
+    gap: 2em;
+    height: 80vh;
+}
+button{
+    background-color:transparent;
+    border-color: transparent;
+    cursor:pointer;
+}
