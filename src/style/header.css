@@ -1,0 +1,11 @@
+.header{
+    height: 5vh; 
+    background: #00193b;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-name{
+    
+}
