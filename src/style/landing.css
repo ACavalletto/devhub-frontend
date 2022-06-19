@@ -2,6 +2,13 @@ body{
     box-sizing: border-box;
     margin: 0;
 }
+html{
+    background-color: azure;
+    height: 100%;
+}
+.landing{
+    background-color: azure;
+}
 h1{
     font-style: normal;
     font-weight: 600;

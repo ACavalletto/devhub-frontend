@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Login = (props) => {
   return (
-    <>
+    <div className="login">
       <NavBar />
       <LoginForm />
       <button className='google-btn'>
@@ -20,7 +20,7 @@ const Login = (props) => {
           </Link>
         </p>
       </div>
-    </>
+    </div>
 // login onclick inside forms
   )
 }
