@@ -6,14 +6,16 @@ import linkedin from '../../assets/linkedin.svg'
 const Header = (props) => {
   return (
     <div className='header'>
-      <div className='site-name'>
+      <Link to='/dashboard'>
         <h4>DevHub</h4>
-      </div>
+      </Link>
       <div className='links'>
-        <Link to='github.com'>
+        <a href='https://github.com/' target='_blank' rel='noreferrer'>
           <img src={github} alt='github icon' />
+        </a>
+        <a href='https://linkedin.com/' target='_blank' rel='noreferrer'>
           <img src={linkedin} alt='linkedin icon' />
-        </Link>
+        </a>
       </div>
     </div>
   )
