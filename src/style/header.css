@@ -1,0 +1,32 @@
+.header{
+    height: 5vh; 
+    background: #00193b;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    margin-left: 10em;
+    padding-top: 2.5vh;
+    color: whitesmoke;
+}
+h4:hover{
+    color: cyan;
+}
+.links{
+    margin-right: 5em;
+    display: flex;
+    gap: 1em;
+}
+.links a:hover{
+    text-align: center;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background: cyan;
+}
