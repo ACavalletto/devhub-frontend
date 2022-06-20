@@ -3,13 +3,14 @@ import LoginForm from '../components/Forms/LoginForm'
 import '../style/login.css'
 import logo from '../assets/google.svg'
 import { Link } from 'react-router-dom'
+import {login} from '../services/firebase';
 
 const Login = (props) => {
   return (
     <div className="login">
       <NavBar />
       <LoginForm />
-      <button className='google-btn'>
+      <button className='google-btn' onClick={login}>
         <img src={logo} alt='Google Logo' />
         Sign in with Google
       </button> {/* onclick(signInGoogle Firebase) */}
