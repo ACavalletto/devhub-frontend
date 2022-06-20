@@ -1,4 +1,6 @@
 import './style/App.css';
+import { useState, useEffect} from "react";
+import { auth } from "./services/firebase";
 import Landing from './pages/Landing'
 import Dashboard from './pages/Dashboard'
 import Category from './pages/Category'
@@ -8,7 +10,16 @@ import Signup from './pages/Signup'
 import Snippets from './pages/Snippets'
 import Todo from './pages/Todo'
 import ForgotPW from './pages/ForgotPW'
+
 function App() {
+  const [user, setUser] = useState(null);
+  useEffect(()=> {
+    const unsubscribe= auth.onAuthStateChanged(user => setUser(user));
+    return () => {
+      unsubscribe();
+    }
+
+  }, []);
   return (
     <>
       {/* Ternary conditional to render landing if user is not logged in on first page load user? route dashboard : route landing*/}
@@ -26,11 +37,11 @@ function App() {
         )} />
         <Route
         path='/login'>
-          <Login/>
+          <Login user={user}/>
         </Route>
         <Route
         path='/signup'>
-          <Signup/>
+          <Signup  user={user} />
         </Route>
         <Route
         path='/snippets'> 
