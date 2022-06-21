@@ -8,14 +8,13 @@ import '../../style/sidebar.css'
 
 
 const Sidebar = (props) => {
+  const {user:{displayName, photoURL}} = props
    const defaultAvatar = 'https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745'
   return (
     <div className='sidebar'>
       <div className='user-sidebar'>
-        <img className= "avatar-img" src={defaultAvatar} alt='user avatar' />
-        {/* Pass name of user here */}
-        <h5>Arnaud Cavalletto</h5>
-        {/* Pass user title here */}
+        <img className= "avatar-img" src={props.user?photoURL:defaultAvatar} alt='user avatar' />
+        <h5>{displayName}</h5>
       </div>
       <nav>
         <Link to='/dashboard'>
