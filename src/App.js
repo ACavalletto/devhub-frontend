@@ -27,7 +27,7 @@ function App() {
         <Landing />
       </Route>
       <Route path='/dashboard'>
-        <Dashboard />
+        <Dashboard user={user} />
       </Route>
       <Route
         path='/category/:category'

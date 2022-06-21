@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom'
 import '../style/dash.css'
 
 const Dashboard = (props) => {
+  console.log(props.user)
   return (
     <div>
-      <Header />
-      <Sidebar />
+      <Header user={props.user} />
+      <Sidebar user={props.user} />
       {/* URI's are placeholders for now */}
       {/* <Link to='/a'>
         <Category />

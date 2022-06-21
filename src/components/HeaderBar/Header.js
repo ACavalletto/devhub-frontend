@@ -2,10 +2,15 @@ import { Link } from 'react-router-dom'
 import '../../style/header.css'
 import github from '../../assets/github.svg'
 import linkedin from '../../assets/linkedin.svg'
-
+import { logout } from '../../services/firebase'
+import {useHistory} from 'react-router-dom'
 const Header = (props) => {
+  const history = useHistory()
+  
   return (
-    <div className='header'>
+    <>
+      {props.user ?
+        <div className='header'>
       <Link to='/dashboard'>
         <h4>DevHub</h4>
       </Link>
@@ -16,8 +21,12 @@ const Header = (props) => {
         <a href='https://linkedin.com/' target='_blank' rel='noreferrer'>
           <img src={linkedin} alt='linkedin icon' />
         </a>
+        <button onClick={logout}>Logout</button>
       </div>
-    </div>
+        </div>
+        : history.push('/')
+      }
+      </>
   )
 }
 
