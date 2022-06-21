@@ -2,15 +2,17 @@ import NavBar from '../components/NavBar'
 import LoginForm from '../components/Forms/LoginForm'
 import '../style/login.css'
 import logo from '../assets/google.svg'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import {login} from '../services/firebase';
 
 const Login = (props) => {
+  let history = useHistory();
+  
   return (
     <div className="login">
       <NavBar />
       <LoginForm />
-      <button className='google-btn' onClick={login}>
+      <button className='google-btn' onClick={() => {login();history.push('/dashboard')}}>
         <img src={logo} alt='Google Logo' />
         Sign in with Google
       </button> {/* onclick(signInGoogle Firebase) */}
