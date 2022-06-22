@@ -1,15 +1,15 @@
 import { Formik, useField, Form } from 'formik';
 import * as Yup from 'yup'
-import '../../style/signup.modules.css'
+import style from '../../style/signup.module.css'
 
 const MyTextInput = ({ label, ...props }) => { 
     const [field, meta] = useField(props);
     return (
         <>
             <label htmlFor={props.id || props.name}>{label}</label>
-            <input className='text-input' {...field}{...props} />
+            <input className={style.text_input} {...field}{...props} />
             {meta.touched && meta.error ? (
-                <div className='error'>{meta.error}</div>
+                <div className={style.error}>{meta.error}</div>
             ): null}
         </>
     )
@@ -17,8 +17,8 @@ const MyTextInput = ({ label, ...props }) => {
 
 const SignupForm = () => {
     return (
-        <div className='form-container'>
-            <h1 className='signup-h1'>Sign Up</h1>
+        <div className={style.form_container}>
+            <h1 className={style.signup_h1}>Sign Up</h1>
             <h4>Please enter your details below</h4>
             <Formik
                 initialValues={{
@@ -44,7 +44,7 @@ const SignupForm = () => {
                 }}
             >
             
-            <Form className="signup-form">
+            <Form className={style.signup_form}>
                 <MyTextInput
                     label='Email'
                     name='email'

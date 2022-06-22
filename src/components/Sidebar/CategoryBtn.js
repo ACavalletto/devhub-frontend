@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import category from '../../assets/category.svg'
-
+import style from '../../style/sidebar.module.css'
 const collapsible = (e) => { 
   let target = e.target.parentElement;
   let links = target.nextSibling;
@@ -11,10 +11,11 @@ const collapsible = (e) => {
 const CategoryBtn = (props) => {
   // Collapse/Expand functionality built here
   return (
-    <div className='categories'>
-      <button className='category-btn' onClick={collapsible}><img src={category}/></button>
+    // line 15-16 are not being called correctly/line 18 is fine
+    <div className={style.categories}>
+      <button className={style.category_btn} onClick={collapsible}><img src={category}/></button>
       {/* the URI's are placeholders for now */}
-      <div className="category-links" style={{ display: 'none' }}>
+      <div className={style.category_links} style={{ display: 'none' }}>
         <br />
       <Link to='/categorya'>
         <div>A</div>

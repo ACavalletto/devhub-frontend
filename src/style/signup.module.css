@@ -1,12 +1,12 @@
 .signup{
     background-color: azure;
 }
-.form-container{
+.form_container{
     display:flex;
     flex-direction: column;
     margin: 5em 25% 0 25%;
 }
-.signup-h1{
+.signup_h1{
     text-align:left;
     font-size: 36px;
     font-weight: 700;
@@ -15,17 +15,17 @@
 h4{
     margin-top: 0;
 }
-.signup-form{
+.signup_form{
     display:flex;
     flex-direction: column;
 }
-.signup-form input{
+.signup_form input{
     background-color: #EBEBEB;
     height: 25px;
     width: 400px;
     padding: .5em;
 }
-.signup-form label{
+.signup_form label{
     margin-top: 2em;
 }
 .error{
@@ -33,7 +33,7 @@ h4{
     margin-top: .25em;
     margin-left: .5em;
 }
-.signup-form [type='submit']{
+.signup_form [type='submit']{
     margin-top: 2.5em;
     height: 40px;
     width: 418px;
@@ -42,10 +42,10 @@ h4{
     color: white;
     cursor:pointer;
 }
-.signup-form [type='submit']:hover{
+.signup_form [type='submit']:hover{
     background: darkorchid;
 }
-.google-btn{
+.google_btn{
     display: flex;
     justify-content: center;
     gap: 1em;
@@ -58,6 +58,6 @@ h4{
     font-size: 16px;
 
 }
-.google-btn img{
+.google_btn img{
     height: 26px;
 }

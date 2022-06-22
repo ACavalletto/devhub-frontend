@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
-import '../style/navbar.modules.css'
+import style from '../style/navbar.module.css'
 const NavBar = (props) => {
   return (
-    <div className='nav-bar'>
-      <div className='home'>
+    <div className={style.nav_bar}>
+      <div className={style.home}>
       <Link to='/'>
         {/* Links to landing page */}
         <div>DevHub</div>
         </Link>
       </div>
-      <div className='login-signup'>
+      <div className={style.login_signup}>
       {/* Wrap these links in ternary to display one or the other depending on whether you're on sign up page or login page */}
       <Link to='/login'>
         {/* Links to sign in page */}
