@@ -4,7 +4,7 @@ import home from '../../assets/home.svg'
 import settings from '../../assets/settings.svg'
 import calendar from '../../assets/calendar.svg'
 import code from '../../assets/code.svg'
-import '../../style/sidebar.css'
+import '../../style/sidebar.modules.css'
 
 
 const Sidebar = (props) => {

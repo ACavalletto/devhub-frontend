@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import '../../style/header.css'
+import '../../style/header.modules.css'
 import github from '../../assets/github.svg'
 import linkedin from '../../assets/linkedin.svg'
 import { logout } from '../../services/firebase'

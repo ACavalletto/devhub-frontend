@@ -1,6 +1,6 @@
 import { Formik, useField, Form } from 'formik';
 import * as Yup from 'yup'
-import '../../style/signup.css'
+import '../../style/signup.modules.css'
 
 const MyTextInput = ({ label, ...props }) => { 
     const [field, meta] = useField(props);

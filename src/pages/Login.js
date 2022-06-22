@@ -1,6 +1,6 @@
 import NavBar from '../components/NavBar'
 import LoginForm from '../components/Forms/LoginForm'
-import '../style/login.css'
+import '../style/login.modules.css'
 import logo from '../assets/google.svg'
 import { Link } from 'react-router-dom'
 import { login } from '../services/firebase';

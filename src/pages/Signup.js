@@ -1,6 +1,6 @@
 import NavBar from '../components/NavBar'
 import SignUpForm from '../components/Forms/SignUpForm'
-import '../style/signup.css'
+import '../style/signup.modules.css'
 import logo from '../assets/google.svg'
 
 

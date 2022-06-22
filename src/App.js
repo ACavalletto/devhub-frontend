@@ -1,4 +1,4 @@
-import './style/App.css';
+import './style/App.modules.css';
 import { useState, useEffect} from "react";
 import { auth } from "./services/firebase";
 import Landing from './pages/Landing'

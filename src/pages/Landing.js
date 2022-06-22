@@ -1,5 +1,5 @@
 import NavBar from '../components/NavBar'
-import '../style/landing.css'
+import '../style/landing.modules.css'
 
 
 const Landing = (props) => {

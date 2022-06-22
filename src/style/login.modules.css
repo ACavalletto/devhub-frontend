@@ -1,5 +1,5 @@
 .login{
-    background-color: azure;
+    background-color:azure;
 }
 .form-container{
     display:flex;
@@ -53,7 +53,7 @@ h4{
 .google-btn{
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 1em; 
     align-items:center;
     margin: 0 25%;
     width: 418px;

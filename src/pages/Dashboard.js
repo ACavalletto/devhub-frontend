@@ -2,7 +2,7 @@ import Sidebar from '../components/Sidebar/Sidebar'
 import Header from '../components/HeaderBar/Header'
 import Category from './Category'
 import { Link } from 'react-router-dom'
-import '../style/dash.css'
+import '../style/dash.modules.css'
 
 const Dashboard = (props) => {
   console.log(props.user)
