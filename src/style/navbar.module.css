@@ -1,4 +1,4 @@
-.nav-bar{
+.nav_bar{
     display:flex;
     justify-content: space-between;
     height: 3em;
@@ -19,13 +19,13 @@
 .home a:hover{
     color: black;
 }
-.login-signup{
+.login_signup{
     display:flex;
     justify-content: space-between;
     margin-right: 4em;
     gap: 1em;
 }
-.login-signup a{
+.login_signup a{
     text-decoration: none;
     color: whitesmoke;
     cursor: pointer;
@@ -36,7 +36,7 @@
     border-radius: 6px;
     transition: color .2 background-color .2 ease-in-out;
 }
-.login-signup a:hover{
+.login_signup a:hover{
     color:darkorchid;
     background-color: white;
 }

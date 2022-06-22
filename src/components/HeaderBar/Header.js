@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import '../../style/header.css'
+import style from '../../style/header.module.css'
 import github from '../../assets/github.svg'
 import linkedin from '../../assets/linkedin.svg'
 import { logout } from '../../services/firebase'
@@ -10,11 +10,11 @@ const Header = (props) => {
   return (
     <>
       {props.user ?
-        <div className='header'>
+        <div className={style.header}>
       <Link to='/dashboard'>
         <h4>DevHub</h4>
       </Link>
-      <div className='links'>
+      <div className={style.links}>
         <a href='https://github.com/' target='_blank' rel='noreferrer'>
           <img src={github} alt='github icon' />
         </a>
