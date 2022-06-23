@@ -9,14 +9,14 @@ const Login = (props) => {
   let history = useHistory();
   
   return (
-    <div className="login">
+    <div className={style.login}>
       <NavBar />
       <LoginForm />
-      <button className='google-btn' onClick={() => {login();history.push('/dashboard')}}>
+      <button className={style.google_btn} onClick={() => {login();history.push('/dashboard')}}>
         <img src={logo} alt='Google Logo' />
         Sign in with Google
       </button> {/* onclick(signInGoogle Firebase) */}
-      <div className='signup-link'>
+      <div className={style.signup_link} >
         <p>Don't have an account?
           <Link to='/signup'>
            Sign up for free.
