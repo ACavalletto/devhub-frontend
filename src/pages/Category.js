@@ -14,7 +14,12 @@ const Category = ({ user, id, URL, category }) => {
     console.log(data)
     setInformation(content);
   }
-  
+  const deleteContent = async (id) => {
+    await fetch(URL + 'content/' + id, {
+      method: 'DELETE',
+    })
+    getData();
+  }
   useEffect(() => { getData()}, [])
 
   const loaded = () => {
@@ -42,7 +47,7 @@ const Category = ({ user, id, URL, category }) => {
                 <span className={style.frame10_text8}> {element.updatedAt}</span>
               </span>
             </div>
-            <button className={style.frame10_edit_button}>
+            <button className={style.frame10_edit_button} onClick={deleteContent.bind(this, element._id )}>
               <img src={Icon} alt='Edit Button' className={style.frame10_editedit} />
               <div className={style.content}>
                 {element.content}
