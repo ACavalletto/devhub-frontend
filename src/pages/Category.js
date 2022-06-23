@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 const Category = ({ user, id, URL, category }) => {
 
   const [information, setInformation] = useState([])
-
+console.log(id)
   const getData = async () => {
     const response = await fetch(URL + 'category/' + id + category)
     const data = await response.json();
