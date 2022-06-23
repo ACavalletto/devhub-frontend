@@ -18,17 +18,16 @@ function App() {
     return () => {
       unsubscribe();
     }
-
   }, []);
+
   return (
     <>
       {/* Ternary conditional to render landing if user is not logged in on first page load user? route dashboard : route landing*/}
-      <Route exact path='/'> {/* potentially change URI to something else*/ }
-        <Landing />
-      </Route>
-      <Route path='/dashboard'>
+      {user? <Route path='/'>
         <Dashboard user={user} />
-      </Route>
+      </Route>: <Route exact path='/'>
+        <Landing />
+      </Route> }
       <Route
         path='/category/:category'
         render={(renderProps) => (
