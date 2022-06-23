@@ -1,5 +1,5 @@
 import NavBar from '../components/NavBar'
-import LoginForm from '../components/Forms/LoginForm'
+import LoginForm from '../components/forms/LoginForm'
 import style from '../style/login.module.css'
 import logo from '../assets/google.svg'
 import { Link, useHistory } from 'react-router-dom'

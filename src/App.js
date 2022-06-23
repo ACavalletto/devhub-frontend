@@ -19,7 +19,7 @@ function App() {
       unsubscribe();
     }
   }, []);
-  const URL= 'http://localhost:4000/'
+  const URL= 'https://dev-hub-v1.herokuapp.com/'
   return (
     <>
       {/* Ternary conditional to render landing if user is not logged in on first page load user? route dashboard : route landing*/}
