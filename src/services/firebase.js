@@ -1,6 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import { useHistory } from 'react-router-dom'
+
 
 const config = {
     apiKey: "AIzaSyCSpXChOXRu3ajCx_iapuQZthGruyiB3CA",
@@ -18,19 +18,14 @@ const config = {
   const provider = new firebase.auth.GoogleAuthProvider();
   
  
-  function login() {
+function login() {
 
-
-    
-    return auth.signInWithPopup(provider)
-    
-    }
-    
+  auth.signInWithPopup(provider)
   
-
-
-  function logout() {
+}
+  
+function logout() {
     return auth.signOut();
   }
 
-  export { auth, login, logout};
+export { auth, login, logout};

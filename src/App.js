@@ -1,4 +1,4 @@
-import './style/App.css';
+import './style/App.module.css';
 import { useState, useEffect} from "react";
 import { auth } from "./services/firebase";
 import Landing from './pages/Landing'
@@ -27,7 +27,7 @@ function App() {
         <Landing />
       </Route>
       <Route path='/dashboard'>
-        <Dashboard />
+        <Dashboard user={user} />
       </Route>
       <Route
         path='/category/:category'

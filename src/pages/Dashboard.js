@@ -2,13 +2,14 @@ import Sidebar from '../components/Sidebar/Sidebar'
 import Header from '../components/HeaderBar/Header'
 import Category from './Category'
 import { Link } from 'react-router-dom'
-import '../style/dash.css'
+import style from '../style/dash.module.css'
 
 const Dashboard = (props) => {
+  console.log(props.user)
   return (
     <div>
-      <Header />
-      <Sidebar />
+      <Header user={props.user} />
+      <Sidebar user={props.user} />
       {/* URI's are placeholders for now */}
       {/* <Link to='/a'>
         <Category />

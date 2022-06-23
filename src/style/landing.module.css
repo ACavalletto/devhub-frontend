@@ -26,23 +26,24 @@ p{
     letter-spacing: .3px;
     margin-bottom: 4em;
 }
-.big-image-container{
+.big_image_container{
     text-align:center;
 }
-.big-image{
+.big_image{
     width: 800px;
     margin: 0 auto;
     height: 435px;
     border-radius: 4.5px;
 }
-.small-image-container{
+.small_image_container{
     margin: 4em auto;
     display:flex;
     justify-content: space-evenly;  
     width: 100vw;
 }
-.small-images{
+.small_images{
     width: 180px;
     height: auto;
     border-radius: 4.5px;
 }
+/* DONE */

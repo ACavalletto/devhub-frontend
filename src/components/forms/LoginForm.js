@@ -1,15 +1,15 @@
 import { Formik, useField, Form } from 'formik';
 import * as Yup from 'yup'
 import { Link } from 'react-router-dom'
-
+import style from '../../style/login.module.css'
 const MyTextInput = ({ label, ...props }) => { 
     const [field, meta] = useField(props);
     return (
         <>
             <label htmlFor={props.id || props.name}>{label}</label>
-            <input className='text-input' {...field}{...props} />
+            <input className={style.text_input} {...field}{...props} />
             {meta.touched && meta.error ? (
-                <div className='error'>{meta.error}</div>
+                <div className={style.error}>{meta.error}</div>
             ): null}
         </>
     )
@@ -17,8 +17,8 @@ const MyTextInput = ({ label, ...props }) => {
 
 const LoginFormik = () => {
     return (
-        <div className='form-container'>
-            <h1 className='login-h1'>Welcome Back</h1>
+        <div className={style.form_container}>
+            <h1 className={style.login_h1}>Welcome Back</h1>
             <h4>Please enter your details below</h4>
             <Formik
                 initialValues={{
@@ -41,7 +41,7 @@ const LoginFormik = () => {
                 }}
             >
             
-            <Form className='login-form'>
+            <Form className={style.login_form}>
                 <MyTextInput
                     label='Email'
                     name='email'
@@ -54,7 +54,7 @@ const LoginFormik = () => {
                     type='password'
                     placeholder='Enter your password'
                     />
-                    <div className='forgot-password'>
+                    <div className={style.forgot_password}>
                         <Link to='/forgot'>
                             Forgot Password
                         </Link>

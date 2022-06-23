@@ -9,12 +9,12 @@
     background-color: #001e45;
     overflow-wrap: break-word;
 }
-.user-sidebar{
+.user_sidebar{
     padding-top: 2em;
     text-align: center;
     color: white;
 }
-.avatar-img{
+.avatar_img{
     width: 50px;
     height: 50px;
     margin: 0 auto;
@@ -27,16 +27,17 @@ nav{
     margin:0 25%;
     gap: 3em;
 }
-button{
+.sidebar_btn{
     background-color:transparent;
     border-color: transparent;
     cursor:pointer;
 }
-button:hover{
+.sidebar_btn:hover{
     background: #002d67;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    /* border-radius: 50%; */
+    /* width: 50px; */
+    /* height: 50px; */
+    background:rgb(5, 137, 214);
 }
 .settings{
     text-align: center;
@@ -44,23 +45,33 @@ button:hover{
     margin-bottom: 3em;
     margin-top: 8em;
 }
-.category-links{
+.category_links{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center
 }
-.category-links a div{
+.category_links a div{
     padding-top: 5px;
 }
-.category-links a div:hover{
+.category_links a div:hover{
     background: #002d67;
     border-radius: 50%;
     height: 25px;
     width: 30px;
     color: white;
 }
-.category-links a{
+.category_links a{
     text-decoration: none;
     color:cyan;
+}
+.category_btn {
+    background-color:transparent;
+    border-color: transparent;
+    cursor:pointer;
+}
+.category_btn:hover{
+    background: #002d67;
+    /* border-radius: 50%; */
+    background:rgb(5, 137, 214);
 }
