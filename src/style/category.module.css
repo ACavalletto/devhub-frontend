@@ -1,0 +1,140 @@
+.frame10_container {
+    min-height: 100vh;
+  }
+  .frame10_frame10 {
+    display: inline-block;
+    width: 514px;
+    height: 208px;
+    border-radius: 1%;
+    background: #232526;
+  
+  }
+  .frame10_group32 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+   
+  
+  }
+  .frame10_rectangle39 {
+    top: 0px;
+    left: 0px;
+    width: 514px;
+    height: 208px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    border-radius: 3px;
+    background-color: rgba(35, 37, 38, 1);
+  }
+  .frame10_group26 {
+    top: 126px;
+    left: 15px;
+    width: 186px;
+    height: 66px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .frame10_text {
+    top: 0px;
+    left: 0px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .frame10_text1 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .frame10_text5 {
+    color: rgba(183, 186, 191, 1);
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .frame10_text6 {
+    top: 54px;
+    left: 0px;
+    color: rgba(128, 126, 126, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .frame10_text7 {
+    color: rgba(128, 126, 126, 1);
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .frame10_text8 {
+    color: rgba(235, 235, 235, 1);
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .frame10_edit_button {
+    top: 180px;
+    left: 483px;
+    width: 16px;
+    height: 15px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-radius: 8%;
+    background-color: rgb(94, 91, 91);
+   
+  }
+  .frame10_editedit {
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 7px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  
