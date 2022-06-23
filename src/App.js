@@ -19,19 +19,19 @@ function App() {
       unsubscribe();
     }
   }, []);
-
+  const URL= 'http://localhost:4000/'
   return (
     <>
       {/* Ternary conditional to render landing if user is not logged in on first page load user? route dashboard : route landing*/}
       {user? <Route path='/'>
-        <Dashboard user={user} />
+        <Dashboard user={user} URL={URL} />
       </Route>: <Route exact path='/'>
         <Landing />
       </Route> }
       <Route
         path='/category/:category'
         render={(renderProps) => (
-          <Category {...renderProps} />
+          <Category {...renderProps} user={user} URL={URL} />
         
         )} />
         <Route
