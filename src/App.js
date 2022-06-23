@@ -19,12 +19,15 @@ function App() {
       unsubscribe();
     }
   }, []);
-  
+
+  const URL= 'https://dev-hub-v1.herokuapp.com/'
   return (
     <>
       {/* Ternary conditional to render landing if user is not logged in on first page load user? route dashboard : route landing*/}
-    
-      <Route exact path='/'> {/* potentially change URI to something else*/ }
+      {user? <Route path='/'>
+        <Dashboard user={user} URL={URL} />
+      </Route>: <Route exact path='/'>
+
         <Landing />
       </Route>
       <Route path='/dashboard'>
@@ -33,7 +36,7 @@ function App() {
       <Route
         path='/category/:category'
         render={(renderProps) => (
-          <Category {...renderProps} />
+          <Category {...renderProps} user={user} URL={URL} />
         
         )} />
         <Route
