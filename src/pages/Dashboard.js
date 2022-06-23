@@ -20,15 +20,13 @@ const Dashboard = ({ URL, user }) => {
           <Category user={user.displayName} id={user.uid} URL={URL} category='a'/>
       </div>
       <div className={style.category_container}>
-      <Link to='/categoryb'>
-        <Category />
-          </Link>
-          </div>
+      <h4>Category A</h4>
+          <Category user={user.displayName} id={user.uid} URL={URL} category='b'/>
+      </div>
         <div className={style.category_container}>
-      <Link to='/categoryc'>
-        <Category />
-          </Link>
-          </div>
+        <h4>Category A</h4>
+        <Category user={user.displayName} id={user.uid} URL={URL} category='c'/>
+        </div>
       </div>
       </div>
   )
