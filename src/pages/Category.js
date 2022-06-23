@@ -1,93 +1,29 @@
 import React from 'react'
 import Icon from '../assets/coolicon.svg';
 import style from '../style/category.module.css'
-<<<<<<< HEAD
 
 const Category = (props) => {
   // const {user:{displayName}} = props
   // Render based on render prop passed into page
  
     return (
-    <div className={style.frame10_container}>
-      <div className={style.frame10_frame10}>
-        <div className={style.frame10_group32}>
-
-          <div className={style.frame10_group26}>
-            <span className={style.frame10_text}>
-              <span className={style.frame10_text1}>
-              <span>DevHub Copy</span>
-                <br></br>
-                <span></span>
-              </span>
-              <span className={style.frame10_text5}>
-                <h5>Nick</h5></span>
-            </span>
-            <span className={style.frame10_text6}>
-              <span className={style.frame10_text7}>
-                Last Updated:
-
-              </span>
-              <span className={style.frame10_text8}>June 16 2022: 12:30 PM</span>
-            </span>
+    
+      <><div className={style.card}>
+        <span className={style.alltext}>
+          <span className={style.devtext}>
+            <span>DevHub Copy</span>
+          </span>
+            <h5>Nick</h5>
+          <span className={style.frame10_text8}>Last Updated:June 16 2022: 12:30 PM</span>
+        </span>
+      </div><button className={style.frame10_edit_button}>
+          <img src={Icon} alt='Edit Button' className={style.frame10_editedit} />
+        </button><div className={style.frame10_image}>
+          <div className={style.frame10_aspect}>
           </div>
-          <button className={style.frame10_edit_button}>
-            <img src={Icon} alt='Edit Button'className={style.frame10_editedit}/>
-
-          </button>
-          <div className={style.frame10_image}>
-            <div className={style.frame10_aspect}></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+        </div></>
+  
     )
 
 }
-=======
-
-const Category = (props) => {
-  // const {user:{displayName}} = props
-  // Render based on render prop passed into page
- 
-    return (
-    <div className={style.frame10_container}>
-      <div className={style.frame10_frame10}>
-        <div className={style.frame10_group32}>
-
-          <div className={style.frame10_group26}>
-            <span className={style.frame10_text}>
-              <span className={style.frame10_text1}>
-              <span>DevHub Copy</span>
-                <br></br>
-                <span></span>
-              </span>
-              <span className={style.frame10_text5}>
-                <h5>Nick</h5></span>
-            </span>
-            <span className={style.frame10_text6}>
-              <span className={style.frame10_text7}>
-                Last Updated:
-
-              </span>
-              <span className={style.frame10_text8}>June 16 2022: 12:30 PM</span>
-            </span>
-          </div>
-          <button className={style.frame10_edit_button}>
-            <img src={Icon} alt='Edit Button'className={style.frame10_editedit}/>
-            
-          </button>
-          <div className={style.frame10_image}>
-            <div className={style.frame10_aspect}></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    )
-    
-}
-
-
->>>>>>> 2fa2c325dafd7955b76e40c09f968229b3c4bc0a
 export default Category

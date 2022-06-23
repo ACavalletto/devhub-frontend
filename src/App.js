@@ -29,9 +29,7 @@ function App() {
       </Route>
       <Route path='/dashboard'>
         <Dashboard user={user} />
-      </Route>: <Route exact path='/'>
-        <Landing />
-      </Route> 
+      </Route>
       <Route
         path='/category/:category'
         render={(renderProps) => (
