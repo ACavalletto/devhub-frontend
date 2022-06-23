@@ -12,7 +12,7 @@ import Todo from './pages/Todo'
 import ForgotPW from './pages/ForgotPW'
 
 function App() {
-  const [user, setUser] = useState(null);
+  const [user, setUser, ] = useState(null);
   useEffect(()=> {
     const unsubscribe= auth.onAuthStateChanged(user => setUser(user));
     return () => {
@@ -20,9 +20,11 @@ function App() {
     }
 
   }, []);
+  
   return (
     <>
       {/* Ternary conditional to render landing if user is not logged in on first page load user? route dashboard : route landing*/}
+    
       <Route exact path='/'> {/* potentially change URI to something else*/ }
         <Landing />
       </Route>
@@ -57,7 +59,9 @@ function App() {
         </Route>
         
     </>
+        
   );
+  
 }
 
 export default App;

@@ -9,6 +9,7 @@ html{
 .landing{
     background-color: azure;
 }
+
 h1{
     font-style: normal;
     font-weight: 600;
@@ -16,7 +17,7 @@ h1{
     line-height: 80px;
     text-align:center;
     letter-spacing: -.7px;
-}
+} 
 p{
 
     font-weight:400;
@@ -25,7 +26,7 @@ p{
     text-align:center;
     letter-spacing: .3px;
     margin-bottom: 4em;
-}
+} 
 .big_image_container{
     text-align:center;
 }
