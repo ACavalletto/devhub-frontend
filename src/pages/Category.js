@@ -3,6 +3,7 @@ import Icon from '../assets/coolicon.svg';
 import style from '../style/category.module.css'
 import { useState, useEffect } from 'react'
 
+
 const Category = ({ user, id, URL, category }) => {
 
   const [information, setInformation] = useState([])
@@ -36,21 +37,14 @@ console.log(id)
 
     return information.map((element) => (
       
-      <div className={style.frame10_container}>
-        <div className={style.frame10_frame10}>
-          <div className={style.frame10_group32}>
-
-            <div className={style.frame10_group26}>
-              <span className={style.frame10_text}>
-                <span className={style.frame10_text1}>
+      <div className={style.card}>
+        <span className={style.alltext}>
+          <span className={style.devtext}>
                   <span>{element.title}</span>
-                  <br></br>
-                  <span></span>
                 </span>
-                <span className={style.frame10_text5}>
                   <h5>{user}</h5></span>
-              </span>
-              <span className={style.frame10_text6}>
+
+
                 <span className={style.frame10_text7}>
                   Last Updated:
                 </span>
@@ -66,13 +60,13 @@ console.log(id)
             <div className={style.frame10_image}>
               <div className={style.frame10_aspect}></div>
             </div>
-          </div>
-        </div>
-      </div>
+          
     ))
   }
   return information? loaded(): <h1>Loading...</h1>
 }
 
 
+
+}
 export default Category

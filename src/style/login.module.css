@@ -2,30 +2,35 @@
     background-color:azure;
 }
 .form_container{
+    
     display:flex;
     flex-direction: column;
     margin: 5em 25% 0 25%;
 }
 .login_h1{
-    text-align:left;
+    text-align: left;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 0;
+    display: flex;
+    font-family: 'Lato', sans-serif;
 }
 h4{
     margin-top: 0;
 }
 .login_form{
+  
     display:flex;
     flex-direction: column;
 }
 .login_form input{
+    
     background-color: #EBEBEB;
     height: 25px;
     width: 400px;
     padding: .5em;
 }
 .login_form label{
+    
     margin-top: 2em;
 }
 .error{

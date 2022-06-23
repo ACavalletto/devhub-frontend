@@ -25,7 +25,7 @@ const Sidebar = (props) => {
         <Link to='/calendar'> 
         <button className= {style.sidebar_btn}><img src={calendar}/></button>
         </Link>
-        <Link to='/code'>
+        <Link to=' /code'>
         <button className= {style.sidebar_btn}><img src={code}/></button>
         </Link>
       </nav>

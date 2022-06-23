@@ -1,5 +1,5 @@
 .header{
-    background: #00193b;
+    background: #1a1919;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -7,15 +7,15 @@
 }
 a{
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 h4{
-    margin-left: 10em;
-    padding-top: 2.5vh;
-    color: whitesmoke;
+    margin-left: 0.3em;
+    padding-top:-9.5vh;
+    font-family: 'Lato', sans-serif;
+    color: #1a1919;
 }
-h4:hover{
-    color: cyan;
-}
+
 .links{
     margin-right: 5em;
     display: flex;

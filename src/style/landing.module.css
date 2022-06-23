@@ -7,22 +7,26 @@ html{
     height: 100%;
 }
 .landing{
-    background-color: azure;
+    background-color: #151617
 }
 h1{
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 80px;
+    color: white;
     text-align:center;
     letter-spacing: -.7px;
+    font-family: 'Lato', sans-serif;
 }
 p{
 
-    font-weight:400;
+    font-weight:500;
     font-size:20px;
     line-height:30px;
+    font-family: 'Lato', sans-serif;
     text-align:center;
+    color: white;
     letter-spacing: .3px;
     margin-bottom: 4em;
 }
@@ -32,14 +36,14 @@ p{
 .big_image{
     width: 800px;
     margin: 0 auto;
-    height: 435px;
-    border-radius: 4.5px;
+    height: 590px;
+    border-radius: 3.5px;
 }
 .small_image_container{
-    margin: 4em auto;
-    display:flex;
-    justify-content: space-evenly;  
-    width: 100vw;
+    width: 806px;
+    margin: 0 auto;
+    height: 620px;
+    border-radius: 4.5px;
 }
 .small_images{
     width: 180px;

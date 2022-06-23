@@ -12,13 +12,14 @@ import Todo from './pages/Todo'
 import ForgotPW from './pages/ForgotPW'
 
 function App() {
-  const [user, setUser] = useState(null);
+  const [user, setUser, ] = useState(null);
   useEffect(()=> {
     const unsubscribe= auth.onAuthStateChanged(user => setUser(user));
     return () => {
       unsubscribe();
     }
   }, []);
+
   const URL= 'https://dev-hub-v1.herokuapp.com/'
   return (
     <>
@@ -26,8 +27,12 @@ function App() {
       {user? <Route path='/'>
         <Dashboard user={user} URL={URL} />
       </Route>: <Route exact path='/'>
+
         <Landing />
-      </Route> }
+      </Route>
+      <Route path='/dashboard'>
+        <Dashboard user={user} />
+      </Route>
       <Route
         path='/category/:category'
         render={(renderProps) => (
@@ -56,7 +61,9 @@ function App() {
         </Route>
         
     </>
+        
   );
+  
 }
 
 export default App;
