@@ -24,15 +24,13 @@ function App() {
   return (
     <>
       {/* Ternary conditional to render landing if user is not logged in on first page load user? route dashboard : route landing*/}
-      {user? <Route path='/'>
+      {user ? <Route path='/'>
         <Dashboard user={user} URL={URL} />
-      </Route>: <Route exact path='/'>
-
-        <Landing />
-      </Route>
-      <Route path='/dashboard'>
-        <Dashboard user={user} />
-      </Route>
+      </Route> :
+        <Route exact path='/'>
+          <Landing />
+        </Route>
+      }
       <Route
         path='/category/:category'
         render={(renderProps) => (

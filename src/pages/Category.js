@@ -40,26 +40,24 @@ console.log(id)
       <div className={style.card}>
         <span className={style.alltext}>
           <span className={style.devtext}>
-                  <span>{element.title}</span>
-                </span>
-                  <h5>{user}</h5></span>
-
-
-                <span className={style.frame10_text7}>
-                  Last Updated:
-                </span>
-                <span className={style.frame10_text8}> {element.updatedAt}</span>
-              </span>
-            </div>
-            <button className={style.frame10_edit_button} onClick={deleteContent.bind(this, element._id )}>
-              <img src={Icon} alt='Edit Button' className={style.frame10_editedit} />
-              <div className={style.content}>
-                {element.content}
-            </div>
-            </button>
-            <div className={style.frame10_image}>
-              <div className={style.frame10_aspect}></div>
-            </div>
+            <span>{element.title}</span>
+          </span>
+          <h5>{user}</h5>
+          <span className={style.frame10_text7}>
+            Last Updated:
+          </span>
+          <span className={style.frame10_text8}> {element.updatedAt}</span>
+        </span>
+          <button className={style.frame10_edit_button} onClick={deleteContent.bind(this, element._id )}>
+          <img src={Icon} alt='Edit Button' className={style.frame10_editedit} />
+          <div className={style.content}>
+            {element.content}
+          </div>
+          </button>
+          <div className={style.frame10_image}>
+            <div className={style.frame10_aspect}></div>
+          </div>
+      </div>
           
     ))
   }
@@ -68,5 +66,5 @@ console.log(id)
 
 
 
-}
+
 export default Category

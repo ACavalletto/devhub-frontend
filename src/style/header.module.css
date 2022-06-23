@@ -8,12 +8,13 @@
 a{
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+    color: whitesmoke;
 }
 h4{
     margin-left: 0.3em;
-    padding-top:-9.5vh;
+    padding: 1em;
     font-family: 'Lato', sans-serif;
-    color: #1a1919;
+    color: whitesmoke;
 }
 
 .links{

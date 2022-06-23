@@ -8,12 +8,7 @@
     height: 208px;
     border-radius: 1%;
     background: #232526;
-  
   }
-
-  display: flex;
-  flex-direction: column;
-}
 .frame10_frame10 {
   top: 0px;
   left: 0px;
@@ -22,10 +17,8 @@
   border-radius: 1%;
   background: #232526;
   margin: 50px;
-
-
-
-  .alltext {
+}
+.alltext {
     top: 108px;
     left: 152px;
     color: rgba(255, 255, 255, 1);
