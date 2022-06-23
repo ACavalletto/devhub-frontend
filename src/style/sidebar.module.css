@@ -4,9 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 80px;
-    height: 95vh;
     background-color: #001e45;
+    height: 100vh;
     overflow-wrap: break-word;
 }
 .user_sidebar{

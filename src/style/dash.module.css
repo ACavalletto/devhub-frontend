@@ -2,3 +2,29 @@ body{background: #00132d}
 #root{
     background: #00132d;
 }
+.dashboard{
+    display: grid;
+    max-width: 100vw;
+    grid-template-columns: 80px repeat(3, 1fr);
+    grid-template-rows: 5vh repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.header_container{
+    grid-area: 1 / 1 / 2 / 5;
+}
+.side_container{
+    grid-area: 2 / 1 / 6 / 2;
+}
+.categories{
+    display:flex;
+    gap: 1.5em;
+    width: 100vw;
+    height: 100vh;
+}
+.category_container{
+    grid-area: 2 / 2 / 6 / 3;
+    padding: 2em;
+
+    
+}
