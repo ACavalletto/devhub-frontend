@@ -18,7 +18,6 @@ function App() {
     return () => {
       unsubscribe();
     }
-
   }, []);
   
   return (
@@ -30,7 +29,9 @@ function App() {
       </Route>
       <Route path='/dashboard'>
         <Dashboard user={user} />
-      </Route>
+      </Route>: <Route exact path='/'>
+        <Landing />
+      </Route> 
       <Route
         path='/category/:category'
         render={(renderProps) => (

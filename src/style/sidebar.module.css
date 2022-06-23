@@ -4,9 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 80px;
-    height: 95vh;
     background-color: #001e45;
+    height: 100vh;
     overflow-wrap: break-word;
 }
 .user_sidebar{
@@ -59,7 +58,7 @@ nav{
     border-radius: 50%;
     height: 25px;
     width: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .category_links a{
     text-decoration: none;
