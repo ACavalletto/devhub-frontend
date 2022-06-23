@@ -22,6 +22,16 @@ const Category = ({ user, id, URL, category }) => {
   }
   useEffect(() => { getData()}, [])
 
+  // const createContent = async (content, reference) => {
+  //   await fetch(URL + '/content' + reference, {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-Type': 'Application/json',
+  //     },
+  //   })
+  //   getData();
+  // }
+
   const loaded = () => {
 
     return information.map((element) => (
@@ -61,7 +71,7 @@ const Category = ({ user, id, URL, category }) => {
       </div>
     ))
   }
-  return information? loaded(): <h1>Loading...</h1>;
+  return information? loaded(): <h1>Loading...</h1>
 }
 
 
