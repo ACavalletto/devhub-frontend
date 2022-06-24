@@ -5,7 +5,7 @@
 “A developer’s one stop shop for all their day to day needs and wants, without the hassle of 15 open webpages, introducing DEV HUB!!! Dev Hub is a fully functional frontend/backend application that places a coders every need in one easy access place. Dev Hub implements categorical sections where developers can add/edit/delete any resource from boilerplates, code snippets, and GitHub Repo/Project Links. Furthermore, Dev Hub also implements sections for developer brainstorming/project ideas and saving helpful resource links to refer back to. Additionally, developers can add any category type for match their specific needs. All in all, Dev Hub strives to simplify, organize, and amplify the work of any developer; novice, junior, and senior alike”
   <br>
 <h1>FUTURE FUNCTIONATIONALITY:</h1>
-I would like this app to become "pantry app" that can help a user keep track of how they've stocked their pantry after grocery shopping, as well as fun snack selector for users who might be a little indecisive.
+Fully integrated and customizable project planning section; Drag and drop delete function; 
 <h1>TECHNOLOGIES USED:</h1>
 HTML
 CSS
@@ -15,7 +15,8 @@ MONGOOSE
 EXPRESS
 EJS
 NODE JS
-
+REACT
+AJAX
 
 ![DEVHUB](https://i.imgur.com/TL0eisO.png)
 ![SignUp](https://i.imgur.com/Hu7AWZF.png)
