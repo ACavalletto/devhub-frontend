@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 html{
-    background-color: azure;
+    background-color: #151617;
     height: 100%;
 }
 .landing{
@@ -26,7 +26,7 @@ p{
     line-height:30px;
     font-family: 'Lato', sans-serif;
     text-align:center;
-    color: white;
+    color: #666666;
     letter-spacing: .3px;
     margin-bottom: 4em;
 }

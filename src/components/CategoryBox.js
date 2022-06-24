@@ -14,19 +14,25 @@ const Category = (props) => {
           <div className={style.frame10_group26}>
             <span className={style.frame10_text}>
               <span className={style.frame10_text1}>
+                <div>
               <span>DevHub Copy</span>
                 <br></br>
                 <span></span>
+                </div>
               </span>
+              
               <span className={style.frame10_text5}>
-                <h5>Nick</h5></span>
+              <div>
+                <h5>Nick</h5>
+                </div></span>
+                
             </span>
             <span className={style.frame10_text6}>
               <span className={style.frame10_text7}>
                 Last Updated:
 
               </span>
-              <span className={style.frame10_text8}>June 16 2022: 12:30 PM</span>
+              <span className={style.frame10_text8}></span>
             </span>
           </div>
           <button className={style.frame10_edit_button}>

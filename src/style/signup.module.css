@@ -1,5 +1,5 @@
 .signup{
-    background-color: azure;
+    background-color: #151617;
 }
 .form_container{
     display:flex;
@@ -7,10 +7,11 @@
     margin: 5em 25% 0 25%;
 }
 .signup_h1{
-    text-align:left;
+    margin-left: 0.6em;
+    padding: 0.09999999999999964em;
+    text-align: left;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 0;
 }
 h4{
     margin-top: 0;
@@ -35,29 +36,38 @@ h4{
 }
 .signup_form [type='submit']{
     margin-top: 2.5em;
-    height: 40px;
+    height: 44px;
     width: 418px;
     font-size: 16px;
+    border-radius: 3px;
     background: black;
     color: white;
     cursor:pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 }
 .signup_form [type='submit']:hover{
-    background: darkorchid;
+    background: rgb(48, 47, 48);
 }
 .google_btn{
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 0.5em ;
     align-items:center;
     margin: 0 25%;
     width: 418px;
-    height:40px;
+    height: 44px;
+    border-radius: 3px;
     margin-top: 2em;
     cursor: pointer;
     font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 
 }
 .google_btn img{
     height: 26px;
+}
+label {
+    color: white;
 }

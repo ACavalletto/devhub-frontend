@@ -2,12 +2,13 @@
     min-height: 100vh;
   }
   .card{
-    top: 0px;
-    left: 0px;
-    width: 514px;
-    height: 208px;
-    border-radius: 1%;
     background: #232526;
+    border-radius: 1%;
+    height: 208px;
+    left: 0;
+    top: 0;
+    margin: 100px;
+    width: 440px;
   }
 .frame10_frame10 {
   top: 0px;
@@ -19,8 +20,8 @@
   margin: 50px;
 }
 .alltext {
-    top: 108px;
-    left: 152px;
+    top: 264px;
+    left: 200px;
     color: rgba(255, 255, 255, 1);
     height: auto;
     position: absolute;
@@ -33,11 +34,13 @@
     line-height: 20px;
     font-stretch: normal;
     text-decoration: none;
-  }
+}
+  
   .devtext{
     color: rgba(255, 255, 255, 1);
     height: auto;
     align-self: auto;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     text-align: left;
     font-weight: 700px;
@@ -71,21 +74,23 @@
     text-decoration: none;
   }
   .frame10_text7 {
-    color: rgba(128, 126, 126, 1);
+    color: rgb(255, 255, 255);
     height: auto;
     align-self: auto;
     font-style: normal;
     text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
     font-weight: 700px;
     font-stretch: normal;
     text-decoration: none;
   }
   .frame10_text8 {
 
-    color: rgba(128, 126, 126, 1);
+    color: rgb(255, 255, 255);
     height: auto;
     position: absolute;
-    font-size: 10px;
+    font-size: 16px;
     align-self: auto;
     font-style: normal;
     text-align: left;
@@ -96,8 +101,8 @@
     text-decoration: none;
   }
   .frame10_edit_button {
-    top: 182px;
-    left: 505px;
+    top: 369px;
+    left: 578px;
     width: 15px;
     height: 17px;
     display: flex;
@@ -108,7 +113,8 @@
     border-color: transparent;
     border-radius: 8%;
     background-color: rgb(94, 91, 91);
-  }
+}
+  
   .frame10_editedit {
     top: 3px;
     left: 3px;

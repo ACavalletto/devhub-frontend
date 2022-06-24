@@ -19,7 +19,7 @@ body{background: #181818}
 .categories{
     display:flex;
     /* gap: 1.5em; */
-    width: 100vw;
+    width: 86vw;
     height: 100vh;
     
 }
