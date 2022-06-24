@@ -20,8 +20,8 @@
   margin: 50px;
 }
 .alltext {
-    top: 232px;
-    left: 201px;
+  top: 265px;
+  left: 201px;
     color: rgba(255, 255, 255, 1);
     height: auto;
     position: absolute;
@@ -127,7 +127,7 @@
   }
   
 .allcontent{
-  top: 3px;
+  top: 37px;
   left: -380px;
   color: rgb(255, 255, 255);
   height: auto;
