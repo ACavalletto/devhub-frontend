@@ -11,8 +11,8 @@ a{
     color: whitesmoke;
 }
 h4{
-    margin-left: 0.9em;
-    padding: 1em;
+    margin-left: 5.9em;
+    padding: 2em;
     font-family: 'Lato', sans-serif;
     color: whitesmoke;
 }
@@ -32,3 +32,15 @@ h4{
    
     background:rgb(5, 137, 214);
 }
+
+h3{
+    font-size: 16px;
+    margin-left: 0.3em;
+    padding: .3em;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+}
+       
+    
+
+

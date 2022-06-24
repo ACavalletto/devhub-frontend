@@ -12,7 +12,7 @@ const Header = (props) => {
       {props.user ?
         <div className={style.header}>
       <Link to='/dashboard'>
-        <h4>DevHub</h4>
+        <h3>DevHub</h3>
       </Link>
       <div className={style.links}>
         <a href='https://github.com/' target='_blank' rel='noreferrer'>

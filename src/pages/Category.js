@@ -50,7 +50,7 @@ console.log(id)
         </span>
           <button className={style.frame10_edit_button} onClick={deleteContent.bind(this, element._id )}>
           <img src={Icon} alt='Edit Button' className={style.frame10_editedit} />
-          <div className={style.alltext}>
+          <div className={style.allcontent}>
             {element.content}
           </div>
           </button>

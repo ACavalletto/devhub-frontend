@@ -20,8 +20,8 @@
   margin: 50px;
 }
 .alltext {
-    top: 264px;
-    left: 200px;
+    top: 232px;
+    left: 201px;
     color: rgba(255, 255, 255, 1);
     height: auto;
     position: absolute;
@@ -30,7 +30,7 @@
     font-style: normal;
     text-align: left;
     font-family: 'Lato', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 20px;
     font-stretch: normal;
     text-decoration: none;
@@ -126,3 +126,32 @@
     border-color: transparent;
   }
   
+.allcontent{
+  top: 3px;
+  left: -380px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+h5{
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700px;
+  font-stretch: normal;
+
+
+}

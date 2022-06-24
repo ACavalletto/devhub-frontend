@@ -10,6 +10,7 @@ html{
     background-color: #151617
 }
 h1{
+    padding: 1em;
     font-style: normal;
     font-weight: 600;
     font-size: 60px;
