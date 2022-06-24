@@ -14,9 +14,8 @@ MONGODB
 MONGOOSE
 EXPRESS
 EJS
-NODE JS
-REACT
-AJAX
+REACT.JS
+
 
 ![DEVHUB](https://i.imgur.com/TL0eisO.png)
 ![SignUp](https://i.imgur.com/Hu7AWZF.png)
