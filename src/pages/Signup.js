@@ -1,5 +1,5 @@
 import NavBar from '../components/NavBar'
-import SignUpForm from '../components/forms/SignUpForm'
+import SignUpForm from '../components/Forms/SignUpForm'
 import style from '../style/signup.module.css'
 import logo from '../assets/google.svg'
 
@@ -18,3 +18,5 @@ const Signup = (props) => {
 }
 
 export default Signup
+
+// '..SignUpForm/components/forms/SignUpForm'
