@@ -8,8 +8,8 @@ const Landing = (props) => {
     <div className={style.landing}>
       <NavBar />
       <h1><span>The first<br /></span>
-       <span>truly intelligent<br /></span>
-      <span>Project Management</span></h1>
+       <span>all in one<br /></span>
+      <span>Project Manager</span></h1>
       <p>Let's make your work more organize and easily using the DevHub with<br /> many of the latest features in managing work every day.</p>
       {/* enter screenshots into srcs */}
       <div className={style.big_image_container}>
